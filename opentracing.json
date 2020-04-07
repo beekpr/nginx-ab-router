@@ -1,0 +1,14 @@
+{
+  "service_name": "nginx",
+  "sampler": {
+    "type": "const",
+    "param": 1
+  },
+  "reporter": {
+    "localAgentHostPort": "jaeger:6831"
+  },
+  "headers": {
+    "jaegerDebugHeader": "jaeger-debug-id",
+    "traceBaggageHeaderPrefix": "x-bkpr-jaegerctx-"
+  }
+}
