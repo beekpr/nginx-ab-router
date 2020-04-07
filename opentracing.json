@@ -1,5 +1,5 @@
 {
-  "service_name": "nginx",
+  "service_name": "nginx-ab-router",
   "sampler": {
     "type": "const",
     "param": 1
